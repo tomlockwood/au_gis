@@ -9,4 +9,3 @@ wget https://www.abs.gov.au/statistics/standards/australian-statistical-geograph
 unzip -o MB_2021_AUST_SHP_GDA2020.zip
 
 shp2pgsql -D -d -I MB_2021_AUST_GDA2020.shp all_meshblocks > meshblock.sql
-
