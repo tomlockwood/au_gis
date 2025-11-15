@@ -4,9 +4,9 @@ mkdir -p .tmp
 
 cd .tmp
 
-wget https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026/access-and-downloads/digital-boundary-files/MB_2021_AUST_SHP_GDA2020.zip
+wget -O meshblocks.zip https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026/access-and-downloads/digital-boundary-files/MB_2021_AUST_SHP_GDA2020.zip
 
-unzip -o MB_2021_AUST_SHP_GDA2020.zip
+unzip -o meshblocks.zip
 
 # The shapefile name convention is not consistent so every new
 # zip may need a new name here.
